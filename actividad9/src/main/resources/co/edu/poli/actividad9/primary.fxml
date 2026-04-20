@@ -9,8 +9,8 @@
 <VBox alignment="CENTER" prefHeight="391.0" prefWidth="504.0" spacing="20.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.poli.actividad9.PrimaryController">
    <children>
       <Label text="Primary View" />
-      <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Switch to Secondary View" />
-      <TextArea prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="primaryButton" onAction="#limpiarCuadro" text=" Borrar" textFill="#ff0505" />
+      <TextArea fx:id="txtArea" prefHeight="200.0" prefWidth="200.0" />
    </children>
    <padding>
       <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
